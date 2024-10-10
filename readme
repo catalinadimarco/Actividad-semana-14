@@ -1,0 +1,13 @@
+Actividad: 
+
+- Deben escribir el código JavaScript que, al agregar un producto mediante el formulario, desestructure los datos del objeto que representa cada producto. Cada producto se agregará a un arreglo de productos. (en este paso lo esperado es que puedan crear una constante, donde se guarden los datos del producto: nombre, precio y categoría)
+
+- Luego, agreguen la funcionalidad de duplicar la lista de productos y añadir un nuevo producto sin modificar la lista original, usando el operador spread.
+IDEA:
+~ Crear una copia de la lista de productos utilizando ...products.
+~ Añadir un nuevo producto a la lista copiada.
+
+- Por ultimo,  crear una función que reciba varios productos y devuelva solo aquellos que pertenezcan a una categoría específica, utilizando el operador rest.
+IDEA:
+~ Implementar un filtro que se active al recibir una categoría de productos.
+
